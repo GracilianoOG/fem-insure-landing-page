@@ -67,3 +67,35 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.features {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  color: hsl(270, 9%, 17%);
+  padding: 10rem 0;
+}
+.features__title {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.8rem;
+  margin-bottom: 4.5rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 0 1.625rem;
+}
+.feature:not(:last-of-type) {
+  margin-bottom: 3.7rem;
+}
+.feature__icon {
+  margin: 0 auto 2.15rem auto;
+}
+.feature__title {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.feature__description {
+  font-family: "Karla", sans-serif;
+  line-height: 1.6;
+}
