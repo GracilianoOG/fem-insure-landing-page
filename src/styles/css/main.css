@@ -99,3 +99,32 @@ body {
   font-family: "Karla", sans-serif;
   line-height: 1.6;
 }
+
+.our-work {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.our-work__content {
+  background-color: hsl(256, 26%, 20%);
+  width: 87%;
+  margin: 0 auto;
+  padding: 4.5rem 0;
+}
+.our-work__title {
+  font-size: 2.35rem;
+  font-family: "DM Serif Display", serif;
+  line-height: 1.05;
+  margin-bottom: 2.5rem;
+}
+.our-work__btn {
+  border: 0.125rem solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  padding: 0.7rem 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}

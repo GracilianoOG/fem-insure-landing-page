@@ -95,3 +95,35 @@ body {
     line-height: 1.6;
   }
 }
+
+.our-work {
+  color: variables.color("white");
+  text-align: center;
+
+  &__content {
+    background-color: variables.color("violet");
+    width: 87%;
+    margin: 0 auto;
+    padding: 4.5rem 0;
+  }
+
+  &__title {
+    font-size: 2.35rem;
+    font-family: "DM Serif Display", serif;
+    line-height: 1.05;
+    margin-bottom: 2.5rem;
+  }
+
+  &__btn {
+    border: 0.125rem solid variables.color("white");
+    color: variables.color("white");
+    display: inline-block;
+    font-family: "Karla", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    padding: 0.7rem 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
