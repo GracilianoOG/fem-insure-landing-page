@@ -128,3 +128,20 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.footer {
+  padding: 14rem 0 0;
+}
+
+.socials {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+.socials__links {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
