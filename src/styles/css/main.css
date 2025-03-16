@@ -14,6 +14,10 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   align-items: center;
   display: flex;
@@ -130,15 +134,39 @@ body {
 }
 
 .footer {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
   padding: 14rem 0 0;
+  text-align: center;
+}
+.footer__nav-section:not(:last-of-type) {
+  margin-bottom: 2.4rem;
+}
+.footer__title, .footer__link {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.footer__title {
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 2rem;
+}
+.footer__item {
+  margin-bottom: 0.8rem;
+}
+.footer__link {
+  color: hsl(256, 26%, 20%);
 }
 
 .socials {
   align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3411764706);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  padding-bottom: 2.8rem;
+  margin-bottom: 2.8rem;
 }
 .socials__links {
   align-items: center;

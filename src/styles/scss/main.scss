@@ -129,15 +129,45 @@ body {
 }
 
 .footer {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
   padding: 14rem 0 0;
+  text-align: center;
+
+  &__nav-section:not(:last-of-type) {
+    margin-bottom: 2.4rem;
+  }
+
+  &__title,
+  &__link {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  &__title {
+    color: variables.color("dark-grayish-violet");
+    margin-bottom: 2rem;
+  }
+
+  &__item {
+    margin-bottom: 0.8rem;
+  }
+
+  &__link {
+    color: variables.color("violet");
+  }
 }
 
 .socials {
   align-items: center;
+  border-bottom: 1px solid #80808057;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  padding-bottom: 2.8rem;
+  margin-bottom: 2.8rem;
 
   &__links {
     align-items: center;
