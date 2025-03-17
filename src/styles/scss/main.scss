@@ -119,6 +119,9 @@ body {
 
   &__content {
     background-color: variables.color("violet");
+    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-how-we-work-mobile.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
     width: 87%;
     margin: 0 auto;
     padding: 4.5rem 0;
