@@ -45,10 +45,26 @@ body {
 
 .about-us {
   background-color: hsl(256, 26%, 20%);
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
   color: hsl(0, 0%, 100%);
   font-family: "DM Serif Display", serif;
   text-align: center;
   padding: 6rem 1.75rem;
+  position: relative;
+}
+.about-us::after {
+  content: "";
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 100%;
 }
 .about-us__title {
   font-size: 2.75rem;
