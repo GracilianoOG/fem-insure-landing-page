@@ -153,6 +153,9 @@ body {
 }
 
 .footer {
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
+  background-position: top 136px center;
+  background-repeat: no-repeat;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   padding: 14rem 0 0;
