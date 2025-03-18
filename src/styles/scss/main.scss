@@ -80,7 +80,14 @@ body {
   background-color: variables.color("white");
   text-align: center;
   color: variables.color("very-dark-violet");
-  padding: 10rem 0;
+  padding: 9.15rem 0;
+
+  &__line {
+    border: 1px solid variables.color("violet");
+    margin: 0 auto 2.2rem;
+    transform: scaleY(0.5);
+    width: 40%;
+  }
 
   &__title {
     font-family: "DM Serif Display", serif;
