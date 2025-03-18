@@ -153,6 +153,7 @@ body {
 }
 
 .footer {
+  background-color: hsl(0, 0%, 98%);
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
   background-position: top 136px center;
   background-repeat: no-repeat;
