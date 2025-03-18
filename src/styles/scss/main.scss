@@ -150,12 +150,9 @@ body {
 
 .footer {
   background-color: variables.color("very-light-gray");
-  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
-  background-position: top 136px center;
-  background-repeat: no-repeat;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
-  padding: 14rem 0 0;
+  margin: 9rem 0 0;
   text-align: center;
 
   &__nav-section:not(:last-of-type) {
@@ -190,8 +187,13 @@ body {
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  padding-bottom: 2.8rem;
   margin-bottom: 2.8rem;
+  padding-bottom: 2.8rem;
+  position: relative;
+
+  &__pattern-container {
+    margin-bottom: -118px;
+  }
 
   &__links {
     align-items: center;
