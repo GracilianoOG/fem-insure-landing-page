@@ -27,6 +27,12 @@ body {
   background-color: transparent;
 }
 
+.intro {
+  &__img {
+    width: 100%;
+  }
+}
+
 .about-us {
   background-color: variables.color("violet");
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");

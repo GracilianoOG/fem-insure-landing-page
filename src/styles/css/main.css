@@ -43,6 +43,10 @@ body {
   background-color: transparent;
 }
 
+.intro__img {
+  width: 100%;
+}
+
 .about-us {
   background-color: hsl(256, 26%, 20%);
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
