@@ -92,7 +92,7 @@ body {
     border: 1px solid variables.color("violet");
     margin: 0 auto 2.2rem;
     transform: scaleY(0.5);
-    width: 40%;
+    width: min(40%, 200px);
   }
 
   &__title {

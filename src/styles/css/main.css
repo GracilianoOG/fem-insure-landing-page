@@ -102,7 +102,7 @@ body {
   border: 1px solid hsl(256, 26%, 20%);
   margin: 0 auto 2.2rem;
   transform: scaleY(0.5);
-  width: 40%;
+  width: min(40%, 200px);
 }
 .features__title {
   font-family: "DM Serif Display", serif;
