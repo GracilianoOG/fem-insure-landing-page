@@ -183,12 +183,12 @@ body {
 
 .socials {
   align-items: center;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.3411764706);
+  border-bottom: 1px solid rgba(131, 125, 135, 0.2);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  margin-bottom: 2.8rem;
+  margin: 0 1.5rem 2.8rem 1.5rem;
   padding-bottom: 2.8rem;
   position: relative;
 }
