@@ -183,7 +183,7 @@ body {
   margin-bottom: 2rem;
 }
 .footer__item {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.75rem;
 }
 .footer__link {
   color: hsl(256, 26%, 20%);
@@ -197,7 +197,7 @@ body {
   gap: 2rem;
   justify-content: center;
   margin: 0 1.5rem 2.8rem 1.5rem;
-  padding-bottom: 2.8rem;
+  padding-bottom: 1.3rem;
   position: relative;
 }
 .socials__links {
