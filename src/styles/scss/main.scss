@@ -159,6 +159,10 @@ body {
     margin-bottom: -86px;
   }
 
+  &__pattern {
+    width: 100%;
+  }
+
   &__nav-section:not(:last-of-type) {
     margin-bottom: 2.4rem;
   }

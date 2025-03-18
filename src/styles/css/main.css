@@ -162,6 +162,9 @@ body {
 .footer__pattern-container {
   margin-bottom: -86px;
 }
+.footer__pattern {
+  width: 100%;
+}
 .footer__nav-section:not(:last-of-type) {
   margin-bottom: 2.4rem;
 }
