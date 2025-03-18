@@ -155,6 +155,10 @@ body {
   margin: 9rem 0 0;
   text-align: center;
 
+  &__pattern-container {
+    margin-bottom: -86px;
+  }
+
   &__nav-section:not(:last-of-type) {
     margin-bottom: 2.4rem;
   }
@@ -190,10 +194,6 @@ body {
   margin-bottom: 2.8rem;
   padding-bottom: 2.8rem;
   position: relative;
-
-  &__pattern-container {
-    margin-bottom: -118px;
-  }
 
   &__links {
     align-items: center;
