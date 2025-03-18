@@ -218,3 +218,28 @@ body {
     gap: 1rem;
   }
 }
+
+@media screen and (min-width: 576px) and (max-width: 1023px) {
+  .intro {
+    display: flex;
+
+    &::after {
+      --b-size: 15px;
+      --b-dot: 0.2px;
+      background-color: variables.color("violet");
+      background-position: center;
+      background-size: var(--b-size) var(--b-size);
+      background-image: radial-gradient(
+        variables.color("white") var(--b-dot),
+        transparent var(--b-dot)
+      );
+      content: "";
+      height: auto;
+      width: 50%;
+    }
+
+    &__img {
+      width: 50%;
+    }
+  }
+}

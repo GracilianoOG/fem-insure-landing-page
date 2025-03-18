@@ -210,3 +210,23 @@ body {
   display: flex;
   gap: 1rem;
 }
+
+@media screen and (min-width: 576px) and (max-width: 1023px) {
+  .intro {
+    display: flex;
+  }
+  .intro::after {
+    --b-size: 15px;
+    --b-dot: 0.2px;
+    background-color: hsl(256, 26%, 20%);
+    background-position: center;
+    background-size: var(--b-size) var(--b-size);
+    background-image: radial-gradient(hsl(0, 0%, 100%) var(--b-dot), transparent var(--b-dot));
+    content: "";
+    height: auto;
+    width: 50%;
+  }
+  .intro__img {
+    width: 50%;
+  }
+}
