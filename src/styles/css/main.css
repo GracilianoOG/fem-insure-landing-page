@@ -38,6 +38,10 @@ body {
   padding: 1.5rem;
 }
 
+.nav-menu {
+  display: none;
+}
+
 .hamburger {
   border: none;
   background-color: transparent;
@@ -228,5 +232,32 @@ body {
   }
   .intro__img {
     width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+  .header {
+    padding: 2rem 8rem;
+  }
+  .nav-menu {
+    display: initial;
+  }
+  .nav-menu__list {
+    display: flex;
+    gap: 28px;
+    text-transform: uppercase;
+    font-family: "Karla", sans-serif;
+  }
+  .nav-menu__link {
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .nav-menu__link--button {
+    border: 2px solid hsl(273, 4%, 51%);
+    padding: 10px 24px;
   }
 }
