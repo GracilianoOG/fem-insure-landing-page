@@ -48,8 +48,12 @@ body {
   background-color: transparent;
 }
 
-.intro__img {
+.intro-mobile__img {
   width: 100%;
+}
+
+.intro-desktop {
+  display: none;
 }
 
 .about-us {
@@ -241,6 +245,24 @@ body {
   }
   .header {
     padding: 2rem 10.5rem;
+  }
+  .intro-mobile {
+    display: none;
+  }
+  .intro-desktop {
+    display: initial;
+  }
+  .about-us {
+    display: flex;
+    padding: 6.2rem 10.5rem 2rem;
+    text-align: left;
+    max-height: 600px;
+  }
+  .about-us__title {
+    font-size: 4.21rem;
+  }
+  .about-us__text {
+    padding-right: 2rem;
   }
   .nav-menu {
     display: initial;
