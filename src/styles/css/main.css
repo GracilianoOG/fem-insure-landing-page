@@ -29,6 +29,7 @@ body {
 
 .app {
   max-width: 1440px;
+  width: 100%;
 }
 
 .header {
@@ -239,7 +240,7 @@ body {
     display: none;
   }
   .header {
-    padding: 2rem 8rem;
+    padding: 2rem 10.5rem;
   }
   .nav-menu {
     display: initial;
