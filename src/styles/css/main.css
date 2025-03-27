@@ -221,10 +221,10 @@ body {
 }
 
 @media screen and (min-width: 576px) and (max-width: 1023px) {
-  .intro {
+  .intro-mobile {
     display: flex;
   }
-  .intro::after {
+  .intro-mobile::after {
     --b-size: 15px;
     --b-dot: 0.2px;
     background-color: hsl(256, 26%, 20%);
@@ -235,7 +235,7 @@ body {
     height: auto;
     width: 50%;
   }
-  .intro__img {
+  .intro-mobile__img {
     width: 50%;
   }
 }
