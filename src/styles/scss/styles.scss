@@ -1,5 +1,5 @@
-@use "./reset";
-@use "./base";
+@use "./base/base";
+@use "./base/reset";
 @use "./variables";
 
 body {
