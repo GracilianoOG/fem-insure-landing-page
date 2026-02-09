@@ -7,6 +7,7 @@
 @use "./components/hamburger.scss";
 @use "./components/nav-menu.scss";
 @use "./components/our-work.scss";
+@use "./components/sociais.scss";
 
 @use "./layout/header";
 @use "./layout/footer";
@@ -21,24 +22,6 @@
 
 .intro-desktop {
   display: none;
-}
-
-.socials {
-  align-items: center;
-  border-bottom: 1px solid rgba(variables.color("dark-grayish-violet"), 0.2);
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  margin: 0 1.5rem 2.8rem 1.5rem;
-  padding-bottom: 1.3rem;
-  position: relative;
-
-  &__links {
-    align-items: center;
-    display: flex;
-    gap: 1rem;
-  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1023px) {
