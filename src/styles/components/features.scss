@@ -22,6 +22,7 @@
   &__list {
     display: flex;
     flex-direction: column;
+    gap: 3.4375rem;
   }
 
   @media screen and (min-width: 1024px) {
@@ -29,6 +30,7 @@
 
     &__list {
       flex-direction: row;
+      gap: 0;
       justify-content: space-between;
     }
   }
