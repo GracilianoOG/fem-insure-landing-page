@@ -1,0 +1,35 @@
+@use "../utils/variables";
+
+.our-work {
+  color: variables.color("white");
+  text-align: center;
+
+  &__content {
+    background-color: variables.color("violet");
+    background-image: url("../../../assets/images/bg-pattern/mobile/bg-pattern-how-we-work-mobile.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 0 1.5rem;
+    padding: 4.5rem 0;
+  }
+
+  &__title {
+    font-size: 2.35rem;
+    font-family: "DM Serif Display", serif;
+    line-height: 1.05;
+    margin-bottom: 2.5rem;
+  }
+
+  &__btn {
+    border: 0.125rem solid variables.color("white");
+    color: variables.color("white");
+    display: inline-block;
+    font-family: "Karla", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    padding: 0.7rem 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
