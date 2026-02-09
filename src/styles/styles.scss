@@ -5,6 +5,7 @@
 @use "./components/feature.scss";
 @use "./components/features.scss";
 @use "./components/hamburger.scss";
+@use "./components/intro-mobile.scss";
 @use "./components/nav-menu.scss";
 @use "./components/our-work.scss";
 @use "./components/sociais.scss";
@@ -14,46 +15,11 @@
 
 @use "./utils/variables";
 
-.intro-mobile {
-  &__img {
-    width: 100%;
-  }
-}
-
 .intro-desktop {
   display: none;
 }
 
-@media screen and (min-width: 576px) and (max-width: 1023px) {
-  .intro-mobile {
-    display: flex;
-
-    &::after {
-      --b-size: 15px;
-      --b-dot: 0.2px;
-      background-color: variables.color("violet");
-      background-position: center;
-      background-size: var(--b-size) var(--b-size);
-      background-image: radial-gradient(
-        variables.color("white") var(--b-dot),
-        transparent var(--b-dot)
-      );
-      content: "";
-      height: auto;
-      width: 50%;
-    }
-
-    &__img {
-      width: 50%;
-    }
-  }
-}
-
 @media screen and (min-width: 1024px) {
-  .intro-mobile {
-    display: none;
-  }
-
   .intro-desktop {
     display: initial;
   }
