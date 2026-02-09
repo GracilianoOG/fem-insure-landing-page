@@ -32,4 +32,15 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+
+  @media screen and (min-width: 1024px) {
+    &__content {
+      align-items: center;
+      display: flex;
+      height: 15.625rem;
+      justify-content: space-between;
+      margin: 0 10.5rem;
+      padding: 4.5rem 4.75rem;
+    }
+  }
 }
