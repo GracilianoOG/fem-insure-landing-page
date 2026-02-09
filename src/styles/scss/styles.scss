@@ -1,6 +1,8 @@
 @use "./base/base";
 @use "./base/reset";
 
+@use "./components/about-us.scss";
+
 @use "./layout/header";
 @use "./layout/footer";
 
@@ -23,55 +25,6 @@
 
 .intro-desktop {
   display: none;
-}
-
-.about-us {
-  background-color: variables.color("violet");
-  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: top left;
-  color: variables.color("white");
-  font-family: "DM Serif Display", serif;
-  text-align: center;
-  padding: 6rem 1.75rem;
-  position: relative;
-
-  &::after {
-    content: "";
-    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
-    background-position: top right;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 70%;
-    width: 100%;
-  }
-
-  &__title {
-    font-size: 2.75rem;
-    line-height: 1;
-    margin-bottom: 1.4rem;
-  }
-
-  &__description {
-    font-family: "Karla", sans-serif;
-    margin-bottom: 2.5rem;
-    line-height: 1.6;
-  }
-
-  &__btn {
-    border: 0.125rem solid variables.color("white");
-    color: variables.color("white");
-    font-family: "Karla", sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.125rem;
-    padding: 0.7rem 1.6rem;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
 }
 
 .features {
