@@ -6,6 +6,7 @@
 @use "./components/features.scss";
 @use "./components/hamburger.scss";
 @use "./components/intro-mobile.scss";
+@use "./components/intro-desktop.scss";
 @use "./components/nav-menu.scss";
 @use "./components/our-work.scss";
 @use "./components/socials.scss";
@@ -14,13 +15,3 @@
 @use "./layout/footer";
 
 @use "./utils/variables";
-
-.intro-desktop {
-  display: none;
-}
-
-@media screen and (min-width: 1024px) {
-  .intro-desktop {
-    display: initial;
-  }
-}
