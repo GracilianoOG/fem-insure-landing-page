@@ -1,3 +1,5 @@
+@use "../utils/variables";
+
 .socials {
   align-items: center;
   border-bottom: 1px solid rgba(variables.color("dark-grayish-violet"), 0.2);
