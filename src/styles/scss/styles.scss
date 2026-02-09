@@ -1,5 +1,8 @@
 @use "./base/base";
 @use "./base/reset";
+
+@use "./layout/header";
+
 @use "./utils/variables";
 
 body {
@@ -14,13 +17,6 @@ body {
 .app {
   max-width: 1440px;
   width: 100%;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem;
 }
 
 .nav-menu {
@@ -256,10 +252,6 @@ body {
 @media screen and (min-width: 1024px) {
   .hamburger {
     display: none;
-  }
-
-  .header {
-    padding: 2rem 10.5rem;
   }
 
   .intro-mobile {
