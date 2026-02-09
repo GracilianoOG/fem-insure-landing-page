@@ -1,0 +1,8 @@
+.hamburger {
+  border: none;
+  background-color: transparent;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}

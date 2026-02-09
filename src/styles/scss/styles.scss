@@ -2,6 +2,7 @@
 @use "./base/reset";
 
 @use "./components/about-us.scss";
+@use "./components/hamburger.scss";
 
 @use "./layout/header";
 @use "./layout/footer";
@@ -10,11 +11,6 @@
 
 .nav-menu {
   display: none;
-}
-
-.hamburger {
-  border: none;
-  background-color: transparent;
 }
 
 .intro-mobile {
@@ -149,10 +145,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hamburger {
-    display: none;
-  }
-
   .intro-mobile {
     display: none;
   }
