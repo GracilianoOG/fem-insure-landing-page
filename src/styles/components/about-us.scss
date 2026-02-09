@@ -2,7 +2,7 @@
 
 .about-us {
   background-color: variables.color("violet");
-  background-image: url("../../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left;
   color: variables.color("white");
@@ -13,7 +13,7 @@
 
   &::after {
     content: "";
-    background-image: url("../../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
+    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
     background-position: top right;
     background-repeat: no-repeat;
     display: inline-block;
