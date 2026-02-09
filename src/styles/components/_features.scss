@@ -28,6 +28,11 @@
   @media screen and (min-width: 1024px) {
     padding: 9.15rem 10.5rem;
 
+    &__title {
+      font-size: 4.1625rem;
+      margin-bottom: 5rem;
+    }
+
     &__list {
       flex-direction: row;
       gap: 0;
