@@ -2,6 +2,7 @@
 @use "./base/reset";
 
 @use "./components/about-us.scss";
+@use "./components/feature.scss";
 @use "./components/features.scss";
 @use "./components/hamburger.scss";
 @use "./components/our-work.scss";
@@ -23,30 +24,6 @@
 
 .intro-desktop {
   display: none;
-}
-
-.feature {
-  text-align: center;
-  padding: 0 1.625rem;
-
-  &:not(:last-of-type) {
-    margin-bottom: 3.4375rem;
-  }
-
-  &__icon {
-    margin: 0 auto 2.15rem auto;
-  }
-
-  &__title {
-    font-family: "DM Serif Display", serif;
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  }
-
-  &__description {
-    font-family: "Karla", sans-serif;
-    line-height: 1.6;
-  }
 }
 
 .socials {
