@@ -1,0 +1,21 @@
+@use "../utils/variables";
+
+.features {
+  background-color: variables.color("white");
+  text-align: center;
+  color: variables.color("very-dark-violet");
+  padding: 9.15rem 0;
+
+  &__line {
+    border: 1px solid variables.color("violet");
+    margin: 0 auto 2.2rem;
+    transform: scaleY(0.5);
+    width: min(40%, 200px);
+  }
+
+  &__title {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.8rem;
+    margin-bottom: 4.5rem;
+  }
+}
