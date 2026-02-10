@@ -1,4 +1,5 @@
 @use "../utils/variables";
+@use "../utils/breakpoints" as b;
 
 .our-work {
   color: variables.color("white");
@@ -33,7 +34,7 @@
     text-transform: uppercase;
   }
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     &__content {
       align-items: center;
       background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-how-we-work-desktop.svg");
