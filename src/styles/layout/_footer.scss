@@ -44,7 +44,7 @@
     color: variables.color("violet");
   }
 
-  @include b.media-up(lg) {
+  @include b.media-up(md) {
     &__links {
       flex-direction: row;
       flex-wrap: wrap;
