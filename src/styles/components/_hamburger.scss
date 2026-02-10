@@ -1,8 +1,10 @@
+@use "../utils/breakpoints" as b;
+
 .hamburger {
   border: none;
   background-color: transparent;
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     display: none;
   }
 }
