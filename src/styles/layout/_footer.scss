@@ -1,4 +1,5 @@
 @use "../utils/variables";
+@use "../utils/breakpoints" as b;
 
 .footer {
   background-color: variables.color("very-light-gray");
@@ -42,7 +43,7 @@
     color: variables.color("violet");
   }
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     &__links {
       flex-direction: row;
       flex-wrap: wrap;
