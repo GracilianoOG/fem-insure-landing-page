@@ -26,7 +26,7 @@
   }
 
   @media screen and (min-width: 1024px) {
-    padding: 9.15rem 10.5rem;
+    padding: 9.15rem var(--page-spacing);
     text-align: left;
 
     &__title {
