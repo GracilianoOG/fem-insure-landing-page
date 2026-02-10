@@ -41,4 +41,12 @@
   &__link {
     color: variables.color("violet");
   }
+
+  @media screen and (min-width: 1024px) {
+    &__links {
+      flex-direction: row;
+      padding: 0 10.5rem;
+      text-align: left;
+    }
+  }
 }
