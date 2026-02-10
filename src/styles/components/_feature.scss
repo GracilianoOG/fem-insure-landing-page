@@ -1,3 +1,5 @@
+@use "../utils/breakpoints" as b;
+
 .feature {
   text-align: center;
   padding: 0 1.625rem;
@@ -17,7 +19,7 @@
     line-height: 1.6;
   }
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     max-width: 350px;
     padding: 0;
     text-align: left;
