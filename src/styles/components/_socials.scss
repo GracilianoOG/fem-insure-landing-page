@@ -18,7 +18,7 @@
     gap: 1rem;
   }
 
-  @include b.media-up(lg) {
+  @include b.media-up(md) {
     flex-direction: row;
     justify-content: space-between;
   }
