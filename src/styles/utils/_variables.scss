@@ -1,12 +1,12 @@
 @use "sass:map";
 
 $colors: (
-  "white": hsl(0, 0%, 100%),
-  "violet": hsl(256, 26%, 20%),
-  "blue": hsl(216, 30%, 68%),
-  "very-dark-violet": hsl(270, 9%, 17%),
-  "dark-grayish-violet": hsl(273, 4%, 51%),
-  "very-light-gray": hsl(0, 0%, 98%),
+  "blue": var(--blue),
+  "dark-grayish-violet": var(--dark-grayish-violet),
+  "violet": var(--violet),
+  "very-dark-violet": var(--very-dark-violet),
+  "very-light-gray": var(--very-light-gray),
+  "white": var(--white),
 );
 
 @function color($key) {
