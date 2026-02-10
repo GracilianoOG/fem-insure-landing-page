@@ -5,4 +5,14 @@
   --very-dark-violet: hsl(270, 9%, 17%);
   --very-light-gray: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
+
+  --page-spacing: 1.5rem;
+
+  @media screen and (min-width: 768px) {
+    --page-spacing: 4.5rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    --page-spacing: 10.5rem;
+  }
 }
