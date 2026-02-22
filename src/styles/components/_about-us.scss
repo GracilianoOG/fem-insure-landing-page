@@ -60,6 +60,15 @@
 
     &__text {
       padding-right: 2rem;
+
+      &::before {
+        content: "";
+        background-color: variables.color("white");
+        display: block;
+        height: 0.0625rem;
+        margin-bottom: 4rem;
+        width: 9.375rem;
+      }
     }
   }
 }
