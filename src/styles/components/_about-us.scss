@@ -2,9 +2,6 @@
 
 .about-us {
   background-color: variables.color("violet");
-  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: top left;
   color: variables.color("white");
   font-family: "DM Serif Display", serif;
   text-align: center;
@@ -22,6 +19,22 @@
     right: 0;
     top: 70%;
     width: 100%;
+  }
+
+  &__inner-pattern {
+    inset: 0;
+    overflow: hidden;
+    position: absolute;
+
+    &::after {
+      background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+      background-position: top left;
+      background-repeat: no-repeat;
+      content: "";
+      display: block;
+      position: absolute;
+      inset: 0;
+    }
   }
 
   &__title {
