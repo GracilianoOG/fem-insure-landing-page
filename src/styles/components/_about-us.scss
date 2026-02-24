@@ -8,6 +8,19 @@
   padding: 6rem 1.75rem;
   position: relative;
 
+  &::before {
+    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    height: 10.3125rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10.5rem;
+  }
+
   &::after {
     content: "";
     background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
@@ -19,25 +32,6 @@
     right: 0;
     top: 70%;
     width: 100%;
-  }
-
-  &__inner-pattern {
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    height: 10.3125rem;
-    width: 10.5rem;
-
-    &::after {
-      background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
-      background-position: top left;
-      background-repeat: no-repeat;
-      content: "";
-      display: block;
-      position: absolute;
-      inset: 0;
-    }
   }
 
   &__title {
@@ -73,16 +67,13 @@
     max-height: 600px;
     margin-bottom: 9.6875rem;
 
-    &__inner-pattern {
+    &::before {
+      background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
+      background-position: top -5.1875rem right 0px;
       height: 32.5rem;
       left: initial;
       right: 0;
       width: 27.25rem;
-    }
-
-    &__inner-pattern::after {
-      background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
-      background-position: top -5.1875rem right 0px;
     }
 
     &::after {
