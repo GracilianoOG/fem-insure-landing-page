@@ -3,10 +3,13 @@
 
 .footer {
   background-color: variables.color("very-light-gray");
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
   margin: 9rem 0 0;
   padding-bottom: 5rem;
+  padding-top: 5.375rem;
   text-align: center;
 
   &__links {
@@ -14,14 +17,6 @@
     flex-direction: column;
     gap: 1.625rem;
     padding: 0 var(--page-spacing);
-  }
-
-  &__pattern-container {
-    margin-bottom: -86px;
-  }
-
-  &__pattern {
-    width: 100%;
   }
 
   &__title,
