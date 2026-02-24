@@ -40,6 +40,8 @@
   }
 
   @include b.media-up(md) {
+    background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
+
     &__links {
       flex-direction: row;
       flex-wrap: wrap;
