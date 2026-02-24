@@ -22,9 +22,12 @@
   }
 
   &__inner-pattern {
-    inset: 0;
+    left: 0;
     overflow: hidden;
     position: absolute;
+    top: 0;
+    height: 10.3125rem;
+    width: 10.5rem;
 
     &::after {
       background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
@@ -69,6 +72,13 @@
     text-align: left;
     max-height: 600px;
     margin-bottom: 9.6875rem;
+
+    &__inner-pattern {
+      height: 32.5rem;
+      left: initial;
+      right: 0;
+      width: 27.25rem;
+    }
 
     &__inner-pattern::after {
       background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
