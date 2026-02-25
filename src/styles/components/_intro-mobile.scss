@@ -1,4 +1,5 @@
 @use "../utils/variables";
+@use "../utils/breakpoints" as b;
 
 .intro-mobile {
   &__img {
@@ -28,7 +29,7 @@
     }
   }
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     display: none;
   }
 }

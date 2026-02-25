@@ -1,7 +1,9 @@
+@use "../utils/breakpoints" as b;
+
 .intro-desktop {
   display: none;
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     display: initial;
   }
 }

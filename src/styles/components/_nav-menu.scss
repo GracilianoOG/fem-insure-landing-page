@@ -1,9 +1,10 @@
 @use "../utils/variables";
+@use "../utils/breakpoints" as b;
 
 .nav-menu {
   display: none;
 
-  @media screen and (min-width: 1024px) {
+  @include b.media-up(lg) {
     display: initial;
 
     &__list {
