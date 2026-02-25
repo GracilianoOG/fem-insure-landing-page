@@ -19,13 +19,21 @@
       letter-spacing: 1px;
       font-size: 14px;
 
+      &:focus-visible,
       &:hover {
         color: variables.color("very-dark-violet");
       }
 
       &--button {
-        border: 2px solid variables.color("dark-grayish-violet");
+        border: 2px solid variables.color("very-dark-violet");
+        color: variables.color("very-dark-violet");
         padding: 10px 24px;
+
+        &:focus-visible,
+        &:hover {
+          background-color: variables.color("very-dark-violet");
+          color: variables.color("white");
+        }
       }
     }
   }
