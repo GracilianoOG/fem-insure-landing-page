@@ -18,6 +18,15 @@
     gap: 1rem;
   }
 
+  &__link {
+    transition: filter 0.25s;
+
+    &:focus-visible,
+    &:hover {
+      filter: brightness(0.25);
+    }
+  }
+
   @include b.media-up(md) {
     flex-direction: row;
     justify-content: space-between;
