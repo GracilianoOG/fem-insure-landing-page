@@ -1,5 +1,6 @@
 @use "../utils/variables";
 @use "../utils/breakpoints" as b;
+@use "../utils/mixins" as m;
 
 .our-work {
   color: variables.color("white");
@@ -32,6 +33,11 @@
     padding: 0.7rem 1.3rem;
     text-decoration: none;
     text-transform: uppercase;
+
+    @include m.button-transition(
+      variables.color("white"),
+      variables.color("very-dark-violet")
+    );
   }
 
   @include b.media-up(lg) {
