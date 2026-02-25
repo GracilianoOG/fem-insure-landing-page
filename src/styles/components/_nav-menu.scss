@@ -28,6 +28,9 @@
         border: 2px solid variables.color("very-dark-violet");
         color: variables.color("very-dark-violet");
         padding: 10px 24px;
+        transition:
+          background-color 0.25s,
+          color 0.25s;
 
         &:focus-visible,
         &:hover {
