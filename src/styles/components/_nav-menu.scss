@@ -19,6 +19,10 @@
       letter-spacing: 1px;
       font-size: 14px;
 
+      &:hover {
+        color: variables.color("very-dark-violet");
+      }
+
       &--button {
         border: 2px solid variables.color("dark-grayish-violet");
         padding: 10px 24px;
