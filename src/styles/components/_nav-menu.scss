@@ -1,5 +1,6 @@
 @use "../utils/variables";
 @use "../utils/breakpoints" as b;
+@use "../utils/mixins" as m;
 
 .nav-menu {
   display: none;
@@ -30,32 +31,14 @@
         border: 2px solid variables.color("very-dark-violet");
         color: variables.color("very-dark-violet");
         padding: 10px 24px;
-        position: relative;
         transition:
           background-color 0.25s,
           color 0.25s;
 
-        &::after {
-          background-color: variables.color("very-dark-violet");
-          content: "";
-          display: block;
-          height: 100%;
-          inset: 0;
-          margin: 0 auto;
-          mix-blend-mode: color;
-          position: absolute;
-          transition: width 0.25s;
-          width: 0%;
-        }
-
-        &:focus-visible,
-        &:hover {
-          color: variables.color("white");
-
-          &::after {
-            width: 100%;
-          }
-        }
+        @include m.button-transition(
+          variables.color("very-dark-violet"),
+          variables.color("white")
+        );
       }
     }
   }
