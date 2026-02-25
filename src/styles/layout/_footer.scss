@@ -37,10 +37,33 @@
 
   &__link {
     color: variables.color("violet");
+
+    &::after {
+      background-color: currentColor;
+      content: "";
+      display: block;
+      height: 0.0625rem;
+      margin: 0 auto;
+      opacity: 0.25;
+      transition:
+        opacity 0.2s ease-out,
+        width 0.25s ease-out;
+      width: 0%;
+    }
+
+    &:focus-visible::after,
+    &:hover::after {
+      opacity: 1;
+      width: 60%;
+    }
   }
 
   @include b.media-up(md) {
     background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
+
+    &__link::after {
+      margin: 0;
+    }
 
     &__links {
       flex-direction: row;
