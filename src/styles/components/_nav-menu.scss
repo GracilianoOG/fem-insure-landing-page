@@ -4,6 +4,11 @@
 
 .nav-menu {
   display: none;
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  margin-top: 5rem;
+  position: fixed;
 
   @include b.media-up(lg) {
     display: initial;
