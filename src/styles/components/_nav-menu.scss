@@ -10,41 +10,43 @@
   margin-top: 5rem;
   position: fixed;
 
+  &__list {
+    display: flex;
+    gap: 28px;
+    text-transform: uppercase;
+    font-family: "Karla", sans-serif;
+  }
+
+  &__link {
+    color: variables.color("dark-grayish-violet");
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: color 0.25s;
+
+    &:focus-visible,
+    &:hover {
+      color: variables.color("very-dark-violet");
+    }
+
+    &--button {
+      border: 2px solid variables.color("very-dark-violet");
+      color: variables.color("very-dark-violet");
+      padding: 10px 24px;
+      transition:
+        background-color 0.25s,
+        color 0.25s;
+
+      @include m.button-transition(
+        variables.color("very-dark-violet"),
+        variables.color("white")
+      );
+    }
+  }
+
   @include b.media-up(lg) {
     display: initial;
-
-    &__list {
-      display: flex;
-      gap: 28px;
-      text-transform: uppercase;
-      font-family: "Karla", sans-serif;
-    }
-
-    &__link {
-      color: variables.color("dark-grayish-violet");
-      font-weight: 700;
-      letter-spacing: 1px;
-      font-size: 14px;
-      transition: color 0.25s;
-
-      &:focus-visible,
-      &:hover {
-        color: variables.color("very-dark-violet");
-      }
-
-      &--button {
-        border: 2px solid variables.color("very-dark-violet");
-        color: variables.color("very-dark-violet");
-        padding: 10px 24px;
-        transition:
-          background-color 0.25s,
-          color 0.25s;
-
-        @include m.button-transition(
-          variables.color("very-dark-violet"),
-          variables.color("white")
-        );
-      }
-    }
+    margin-top: 0;
+    position: static;
   }
 }
