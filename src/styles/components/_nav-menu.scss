@@ -50,5 +50,10 @@
     display: initial;
     margin-top: 0;
     position: static;
+
+    &__list {
+      align-items: normal;
+      flex-direction: row;
+    }
   }
 }
