@@ -3,6 +3,7 @@
 @use "../utils/mixins" as m;
 
 .nav-menu {
+  background-color: variables.color("very-dark-violet");
   display: none;
   display: flex;
   inset: 0;
