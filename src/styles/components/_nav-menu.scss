@@ -11,10 +11,12 @@
   position: fixed;
 
   &__list {
+    align-items: center;
     display: flex;
     gap: 28px;
-    text-transform: uppercase;
     font-family: "Karla", sans-serif;
+    flex-direction: column;
+    text-transform: uppercase;
   }
 
   &__link {
