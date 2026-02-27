@@ -57,5 +57,14 @@
       align-items: normal;
       flex-direction: row;
     }
+
+    &__link {
+      color: variables.color("dark-grayish-violet");
+
+      &--button {
+        border-color: variables.color("very-dark-violet");
+        color: variables.color("very-dark-violet");
+      }
+    }
   }
 }
