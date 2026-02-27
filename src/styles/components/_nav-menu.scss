@@ -4,6 +4,10 @@
 
 .nav-menu {
   background-color: variables.color("very-dark-violet");
+  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-mobile-nav.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: none;
   display: flex;
   inset: 0;
