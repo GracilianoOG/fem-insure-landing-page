@@ -24,6 +24,18 @@
     line-height: 1.6;
   }
 
+  &--snappy {
+    --feature-icon: url("../../assets/images/icons/icon-snappy-process.svg");
+  }
+
+  &--prices {
+    --feature-icon: url("../../assets/images/icons/icon-affordable-prices.svg");
+  }
+
+  &--people {
+    --feature-icon: url("../../assets/images/icons/icon-people-first.svg");
+  }
+
   @include b.media-up(lg) {
     max-width: 350px;
     text-align: left;
