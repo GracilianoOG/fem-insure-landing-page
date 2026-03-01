@@ -3,8 +3,14 @@
 .feature {
   text-align: center;
 
-  &__icon {
+  &::before {
+    background-image: var(--feature-icon);
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    height: 86px;
     margin: 0 auto 2.15rem auto;
+    width: 86px;
   }
 
   &__title {
@@ -22,7 +28,7 @@
     max-width: 350px;
     text-align: left;
 
-    &__icon {
+    &::before {
       margin: 0 0 2.15rem 0;
     }
   }
