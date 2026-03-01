@@ -1,9 +1,9 @@
 @use "sass:map";
 
 $breakpoints: (
-  sm: 576px,
-  md: 768px,
-  lg: 1024px,
+  sm: 36rem,
+  md: 48rem,
+  lg: 64rem,
 );
 
 @mixin media-up($size) {
