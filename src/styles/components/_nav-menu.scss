@@ -76,6 +76,9 @@
       &--button {
         border-color: variables.color("very-dark-violet");
         color: variables.color("very-dark-violet");
+        margin-top: 0;
+        padding: 10px 24px;
+        width: auto;
       }
     }
   }
