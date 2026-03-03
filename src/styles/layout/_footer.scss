@@ -56,6 +56,11 @@
     }
   }
 
+  &__separator {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 2.5rem;
+  }
+
   @include b.media-up(md) {
     background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
     padding-top: 4rem;
