@@ -5,7 +5,7 @@
   background-color: color("very-light-gray");
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
   background-repeat: no-repeat;
-  font-family: "Karla", sans-serif;
+  font-family: var(--secondary-font);
   text-transform: uppercase;
   margin: 9rem 0 0;
   padding: 5.5rem var(--page-spacing) 5rem;

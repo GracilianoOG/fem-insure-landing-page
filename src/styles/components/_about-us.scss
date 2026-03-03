@@ -5,7 +5,7 @@
 .about-us {
   background-color: color("violet");
   color: color("white");
-  font-family: "DM Serif Display", serif;
+  font-family: var(--main-font);
   text-align: center;
   padding: 6rem calc(var(--page-spacing) + 0.25rem);
   position: relative;
@@ -46,7 +46,7 @@
   }
 
   &__description {
-    font-family: "Karla", sans-serif;
+    font-family: var(--secondary-font);
     margin-bottom: 2.5rem;
     line-height: 1.6;
   }
@@ -54,7 +54,7 @@
   &__btn {
     border: 0.125rem solid color("white");
     color: color("white");
-    font-family: "Karla", sans-serif;
+    font-family: var(--secondary-font);
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.125rem;

@@ -17,7 +17,7 @@
 
   &__title {
     font-size: 2.35rem;
-    font-family: "DM Serif Display", serif;
+    font-family: var(--main-font);
     line-height: 1.05;
     margin-bottom: 2.5rem;
   }
@@ -26,7 +26,7 @@
     border: 0.125rem solid color("white");
     color: color("white");
     display: inline-block;
-    font-family: "Karla", sans-serif;
+    font-family: var(--secondary-font);
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.125rem;
