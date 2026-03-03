@@ -1,8 +1,8 @@
-@use "../utils/variables";
+@use "../utils/variables" as *;
 @use "../utils/breakpoints" as b;
 
 .footer {
-  background-color: variables.color("very-light-gray");
+  background-color: color("very-light-gray");
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
   background-repeat: no-repeat;
   font-family: "Karla", sans-serif;
@@ -25,7 +25,7 @@
   }
 
   &__title {
-    color: variables.color("dark-grayish-violet");
+    color: color("dark-grayish-violet");
     margin-bottom: 2rem;
   }
 
@@ -34,7 +34,7 @@
   }
 
   &__link {
-    color: variables.color("violet");
+    color: color("violet");
 
     &::after {
       background-color: currentColor;
