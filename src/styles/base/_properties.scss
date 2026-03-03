@@ -8,6 +8,8 @@
   --very-light-gray: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
 
+  --main-font: "DM Serif Display", serif;
+  --secondary-font: "Karla", sans-serif;
   --page-spacing: 1.5rem;
 
   @include b.media-up(md) {
