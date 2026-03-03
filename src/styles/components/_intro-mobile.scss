@@ -1,4 +1,4 @@
-@use "../utils/variables";
+@use "../utils/variables" as *;
 @use "../utils/breakpoints" as b;
 
 .intro-mobile {
@@ -12,11 +12,11 @@
     &::after {
       --b-size: 15px;
       --b-dot: 0.2px;
-      background-color: variables.color("violet");
+      background-color: color("violet");
       background-position: center;
       background-size: var(--b-size) var(--b-size);
       background-image: radial-gradient(
-        variables.color("white") var(--b-dot),
+        color("white") var(--b-dot),
         transparent var(--b-dot)
       );
       content: "";

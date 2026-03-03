@@ -1,9 +1,9 @@
 @use "../utils/breakpoints" as b;
-@use "../utils/variables" as vars;
+@use "../utils/variables" as *;
 
 .header {
   align-items: center;
-  background-color: vars.color("white");
+  background-color: color("white");
   display: flex;
   justify-content: space-between;
   padding: 1.5rem var(--page-spacing);

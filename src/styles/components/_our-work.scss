@@ -1,13 +1,13 @@
-@use "../utils/variables";
+@use "../utils/variables" as *;
 @use "../utils/breakpoints" as b;
 @use "../utils/mixins" as m;
 
 .our-work {
-  color: variables.color("white");
+  color: color("white");
   text-align: center;
 
   &__content {
-    background-color: variables.color("violet");
+    background-color: color("violet");
     background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-how-we-work-mobile.svg");
     background-position: top right;
     background-repeat: no-repeat;
@@ -23,8 +23,8 @@
   }
 
   &__btn {
-    border: 0.125rem solid variables.color("white");
-    color: variables.color("white");
+    border: 0.125rem solid color("white");
+    color: color("white");
     display: inline-block;
     font-family: "Karla", sans-serif;
     font-size: 0.8rem;
@@ -34,10 +34,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    @include m.button-transition(
-      variables.color("white"),
-      variables.color("very-dark-violet")
-    );
+    @include m.button-transition(color("white"), color("very-dark-violet"));
   }
 
   @include b.media-up(lg) {
