@@ -1,6 +1,6 @@
 @use "sass:map";
 
-$colors: (
+$_colors: (
   "blue": var(--blue),
   "dark-grayish-violet": var(--dark-grayish-violet),
   "violet": var(--violet),
@@ -10,5 +10,5 @@ $colors: (
 );
 
 @function color($key) {
-  @return map.get($colors, $key);
+  @return map.get($_colors, $key);
 }
