@@ -12,6 +12,6 @@
   z-index: 5;
 
   @include b.media-up(lg) {
-    padding: 2rem var(--page-spacing);
+    padding: 1.25rem var(--page-spacing);
   }
 }
