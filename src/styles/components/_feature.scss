@@ -1,6 +1,7 @@
 @use "../utils/breakpoints" as b;
 
 .feature {
+  --feature-icon-size: 86px;
   text-align: center;
 
   &::before {
@@ -8,9 +9,9 @@
     background-repeat: no-repeat;
     content: "";
     display: block;
-    height: 86px;
+    height: var(--feature-icon-size);
     margin: 0 auto 2.15rem auto;
-    width: 86px;
+    width: var(--feature-icon-size);
   }
 
   &__title {
