@@ -58,6 +58,7 @@
 
   @include b.media-up(md) {
     background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
+    margin-top: 9.375rem;
     padding-top: 4rem;
 
     &__link::after {
