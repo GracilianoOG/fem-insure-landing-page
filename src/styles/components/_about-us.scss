@@ -67,6 +67,7 @@
   }
 
   @include b.media-up(lg) {
+    --pattern-top: calc(70% + 9px);
     display: flex;
     padding: 6.2rem var(--page-spacing) 2rem;
     text-align: left;
