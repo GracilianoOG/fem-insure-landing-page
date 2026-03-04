@@ -3,6 +3,7 @@
 @use "../utils/mixins" as m;
 
 .about-us {
+  --pattern-top: 70%;
   background-color: color("violet");
   color: color("white");
   font-family: var(--main-font);
@@ -32,7 +33,7 @@
     position: absolute;
     pointer-events: none;
     right: 0;
-    top: 70%;
+    top: var(--pattern-top);
     height: 20.9375rem;
     width: 8.125rem;
   }
