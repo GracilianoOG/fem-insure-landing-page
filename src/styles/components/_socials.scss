@@ -31,4 +31,9 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @include b.media-up(lg) {
+    margin-bottom: 2.9375rem;
+    padding-bottom: 2.0625rem;
+  }
 }
