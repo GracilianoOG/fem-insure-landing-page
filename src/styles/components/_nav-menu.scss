@@ -11,7 +11,7 @@
   display: none;
   inset: 0;
   justify-content: center;
-  margin-top: calc(3rem + 32px);
+  margin-top: var(--header-height);
   padding-top: 3rem;
   position: fixed;
 
