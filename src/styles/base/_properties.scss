@@ -11,6 +11,7 @@
   --main-font: "DM Serif Display", serif;
   --secondary-font: "Karla", sans-serif;
   --page-spacing: 1.5rem;
+  --header-height: 80px;
 
   @include b.media-up(md) {
     --page-spacing: 4.5rem;
