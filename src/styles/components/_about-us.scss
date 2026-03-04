@@ -4,6 +4,9 @@
 
 .about-us {
   --pattern-top: 70%;
+  --pattern-before-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+  --pattern-after-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
+
   background-color: color("violet");
   color: color("white");
   font-family: var(--main-font);
@@ -12,7 +15,7 @@
   position: relative;
 
   &::before {
-    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
+    background-image: var(--pattern-before-img);
     background-position: top left;
     background-repeat: no-repeat;
     content: "";
@@ -26,7 +29,7 @@
 
   &::after {
     content: "";
-    background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
+    background-image: var(--pattern-after-img);
     background-position: top right;
     background-repeat: no-repeat;
     display: inline-block;
@@ -68,6 +71,9 @@
 
   @include b.media-up(lg) {
     --pattern-top: calc(70% + 9px);
+    --pattern-before-img: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
+    --pattern-after-img: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-left-desktop.svg");
+
     display: flex;
     padding: 6.2rem var(--page-spacing) 2rem;
     text-align: left;
@@ -75,7 +81,6 @@
     margin-bottom: 9.6875rem;
 
     &::before {
-      background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
       background-position: top -5.1875rem right 0px;
       height: 32.5rem;
       left: initial;
@@ -84,7 +89,6 @@
     }
 
     &::after {
-      background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-left-desktop.svg");
       background-position: top left;
       left: 0;
       right: initial;
