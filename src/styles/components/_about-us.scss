@@ -105,7 +105,7 @@
 
       &::before {
         content: "";
-        background-color: color("white");
+        background-color: var(--about-us-top-line-color);
         display: block;
         height: 0.0625rem;
         margin-bottom: 4rem;
