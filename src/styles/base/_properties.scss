@@ -15,6 +15,8 @@
 
   --about-us-bg-color: var(--violet);
   --about-us-color: var(--white);
+  --about-us-btn-color: inherit;
+  --about-us-btn-border-color: var(--white);
 
   @include b.media-up(md) {
     --page-spacing: 4.5rem;
