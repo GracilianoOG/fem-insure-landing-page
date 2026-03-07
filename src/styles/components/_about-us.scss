@@ -57,7 +57,7 @@
 
   &__btn {
     border: 0.125rem solid color("white");
-    color: color("white");
+    color: inherit;
     font-family: var(--secondary-font);
     font-size: 0.8rem;
     font-weight: 700;
