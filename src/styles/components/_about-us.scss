@@ -7,8 +7,8 @@
   --pattern-before-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
   --pattern-after-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-right-mobile.svg");
 
-  background-color: color("violet");
-  color: color("white");
+  background-color: var(--about-us-bg-color);
+  color: var(--about-us-color);
   font-family: var(--main-font);
   text-align: center;
   padding: 6rem calc(var(--page-spacing) + 0.25rem);
