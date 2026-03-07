@@ -13,6 +13,9 @@
   --page-spacing: 1.5rem;
   --header-height: 80px;
 
+  --about-us-bg-color: var(--violet);
+  --about-us-color: var(--white);
+
   @include b.media-up(md) {
     --page-spacing: 4.5rem;
   }
