@@ -3,11 +3,11 @@
 @use "../utils/mixins" as m;
 
 .our-work {
-  color: color("white");
+  color: var(--work-color);
   text-align: center;
 
   &__content {
-    background-color: color("violet");
+    background-color: var(--work-cont-bg-color);
     background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-how-we-work-mobile.svg");
     background-position: top right;
     background-repeat: no-repeat;
@@ -23,8 +23,8 @@
   }
 
   &__btn {
-    border: 0.125rem solid color("white");
-    color: color("white");
+    border: 0.125rem solid var(--work-btn-border-color);
+    color: var(--work-btn-color);
     display: inline-block;
     font-family: var(--secondary-font);
     font-size: 0.8rem;
