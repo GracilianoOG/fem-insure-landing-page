@@ -19,6 +19,10 @@
   --about-us-btn-border-color: var(--white);
   --about-us-top-line-color: var(--white);
 
+  --features-bg-color: var(--white);
+  --features-color: var(--very-dark-violet);
+  --features-line-color: var(--very-dark-violet);
+
   @include b.media-up(md) {
     --page-spacing: 4.5rem;
   }

@@ -2,13 +2,13 @@
 @use "../utils/breakpoints" as b;
 
 .features {
-  background-color: color("white");
+  background-color: var(--features-bg-color);
   text-align: center;
-  color: color("very-dark-violet");
+  color: var(--features-color);
   padding: 9.15rem 1.625rem;
 
   &::before {
-    background-color: color("violet");
+    background-color: var(--features-line-color);
     content: "";
     display: block;
     height: 0.0625rem;
