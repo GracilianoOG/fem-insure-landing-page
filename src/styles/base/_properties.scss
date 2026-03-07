@@ -23,6 +23,12 @@
   --features-color: var(--very-dark-violet);
   --features-line-color: var(--very-dark-violet);
 
+  --nav-bg-color: var(--very-dark-violet);
+  --nav-link-color: var(--white);
+  --nav-link-hover-color: var(--very-dark-violet);
+  --nav-button-border-color: var(--white);
+  --nav-button-color: var(--white);
+
   @include b.media-up(md) {
     --page-spacing: 4.5rem;
   }

@@ -3,7 +3,7 @@
 @use "../utils/mixins" as m;
 
 .nav-menu {
-  background-color: color("very-dark-violet");
+  background-color: var(--nav-bg-color);
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-mobile-nav.svg");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@
   }
 
   &__link {
-    color: color("white");
+    color: var(--nav-link-color);
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 1.3125rem;
@@ -33,11 +33,12 @@
 
     &:focus-visible,
     &:hover {
-      color: color("very-dark-violet");
+      color: var(--nav-link-hover-color);
     }
 
     &--button {
-      border: 2px solid color("white");
+      border: 2px solid var(--nav-button-border-color);
+      color: var(--nav-button-color);
       display: inline-block;
       margin-top: -8px;
       padding: 14px 24px;
@@ -56,7 +57,11 @@
   }
 
   @include b.media-up(lg) {
-    background-color: transparent;
+    --nav-bg-color: transparent;
+    --nav-link-color: var(--dark-grayish-violet);
+    --nav-button-border-color: var(--very-dark-violet);
+    --nav-button-color: var(--very-dark-violet);
+
     background-image: none;
     display: initial;
     margin-top: 0;
@@ -69,12 +74,9 @@
     }
 
     &__link {
-      color: color("dark-grayish-violet");
       font-size: 0.875rem;
 
       &--button {
-        border-color: color("very-dark-violet");
-        color: color("very-dark-violet");
         margin-top: 0;
         margin-left: 0.5625rem;
         padding: 10px 24px;
