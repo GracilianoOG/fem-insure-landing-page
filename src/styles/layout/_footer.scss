@@ -2,8 +2,10 @@
 @use "../utils/breakpoints" as b;
 
 .footer {
+  --footer-bg-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
+
   background-color: var(--footer-bg-color);
-  background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
+  background-image: var(--footer-bg-img);
   background-repeat: no-repeat;
   font-family: var(--secondary-font);
   text-transform: uppercase;
@@ -57,7 +59,8 @@
   }
 
   @include b.media-up(md) {
-    background-image: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
+    --footer-bg-img: url("../../assets/images/bg-pattern/desktop/bg-pattern-footer-desktop.svg");
+
     margin-top: 9.375rem;
     padding-top: 4rem;
 
