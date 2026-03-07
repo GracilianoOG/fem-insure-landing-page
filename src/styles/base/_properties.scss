@@ -29,6 +29,8 @@
   --nav-button-border-color: var(--white);
   --nav-button-color: var(--white);
 
+  --header-bg-color: var(--white);
+
   --socials-line-color: rgba(0, 0, 0, 0.12);
 
   @include b.media-up(md) {

@@ -3,7 +3,7 @@
 
 .header {
   align-items: center;
-  background-color: color("white");
+  background-color: var(--header-bg-color);
   display: flex;
   height: var(--header-height);
   justify-content: space-between;
