@@ -97,7 +97,7 @@
     }
 
     &__title {
-      font-size: 4.21rem;
+      font-size: clamp(2.75rem, 5vw, 4.21rem);
     }
 
     &__text {
