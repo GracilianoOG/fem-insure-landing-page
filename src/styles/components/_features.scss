@@ -33,7 +33,7 @@
   }
 
   @include b.media-up(lg) {
-    padding: 9.15rem var(--page-spacing) 10.1875rem;
+    padding-bottom: 10.1875rem;
     text-align: left;
 
     &__title {
