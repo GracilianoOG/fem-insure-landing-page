@@ -28,6 +28,10 @@
     gap: 3.4375rem;
   }
 
+  @include b.media-up(md) {
+    padding: 9.15rem var(--page-spacing);
+  }
+
   @include b.media-up(lg) {
     padding: 9.15rem var(--page-spacing) 10.1875rem;
     text-align: left;
