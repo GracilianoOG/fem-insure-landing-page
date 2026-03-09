@@ -46,7 +46,7 @@
   --socials-line-color: rgba(0, 0, 0, 0.12);
 
   @include b.media-up(md) {
-    --page-spacing: 4.5rem;
+    --page-spacing: max(4.5rem, 9vw);
   }
 
   @include b.media-up(lg) {
