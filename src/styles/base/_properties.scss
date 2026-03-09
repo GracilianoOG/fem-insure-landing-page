@@ -10,7 +10,7 @@
 
   --main-font: "DM Serif Display", serif;
   --secondary-font: "Karla", sans-serif;
-  --page-spacing: 1.5rem;
+  --page-spacing: max(1.5rem, 6vw);
   --header-height: 80px;
 
   --body-bg-color: var(--white);
