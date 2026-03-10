@@ -79,6 +79,10 @@
     @include m.button-transition(color("white"), color("very-dark-violet"));
   }
 
+  @include b.media-up(md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @include b.media-up(lg) {
     &__content {
       --pattern-top: calc(70% + 9px);
