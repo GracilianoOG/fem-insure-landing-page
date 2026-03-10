@@ -85,6 +85,8 @@
   }
 
   @include b.media-up(lg) {
+    display: block;
+
     &__intro-mobile {
       display: none;
     }
