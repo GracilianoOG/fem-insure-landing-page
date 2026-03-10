@@ -85,6 +85,10 @@
   }
 
   @include b.media-up(lg) {
+    &__intro-mobile {
+      display: none;
+    }
+
     &__content {
       --pattern-top: calc(70% + 9px);
       --pattern-before-img: url("../../assets/images/bg-pattern/desktop/bg-pattern-intro-right-desktop.svg");
