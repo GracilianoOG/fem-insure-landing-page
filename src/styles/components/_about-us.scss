@@ -11,7 +11,7 @@
   color: var(--about-us-color);
   font-family: var(--main-font);
   text-align: center;
-  padding: 6rem calc(var(--page-spacing) + 0.25rem);
+  padding: 6rem var(--page-spacing);
   position: relative;
 
   &::before {
