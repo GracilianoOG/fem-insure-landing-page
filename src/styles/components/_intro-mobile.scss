@@ -9,21 +9,6 @@
   @include b.media-up(sm) {
     display: flex;
 
-    &::after {
-      --b-size: 15px;
-      --b-dot: 0.2px;
-      background-color: color("violet");
-      background-position: center;
-      background-size: var(--b-size) var(--b-size);
-      background-image: radial-gradient(
-        color("white") var(--b-dot),
-        transparent var(--b-dot)
-      );
-      content: "";
-      height: auto;
-      width: 50%;
-    }
-
     &__img {
       width: 50%;
     }
