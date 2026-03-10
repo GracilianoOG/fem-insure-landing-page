@@ -3,6 +3,8 @@
 @use "../utils/mixins" as m;
 
 .about-us {
+  display: grid;
+
   &__content {
     --pattern-top: 21.625rem;
     --pattern-before-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
