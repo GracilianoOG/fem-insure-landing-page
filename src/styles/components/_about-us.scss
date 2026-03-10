@@ -11,7 +11,7 @@
   color: var(--about-us-color);
   font-family: var(--main-font);
   text-align: center;
-  padding: 6rem var(--page-spacing);
+  padding: 5.875rem var(--page-spacing) 6.4375rem;
   position: relative;
 
   &::before {
@@ -98,7 +98,8 @@
     }
 
     &__title {
-      font-size: clamp(2.75rem, 4.75vw, 4.21rem);
+      font-size: clamp(2.75rem, 4.75vw, 4.375rem);
+      line-height: 0.92;
     }
 
     &__text {
