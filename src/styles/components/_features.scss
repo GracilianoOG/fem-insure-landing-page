@@ -25,7 +25,7 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 3.4375rem;
+    gap: 3.5625rem;
   }
 
   @include b.media-up(md) {
