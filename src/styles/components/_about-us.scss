@@ -82,6 +82,10 @@
 
   @include b.media-up(md) {
     grid-template-columns: repeat(2, 1fr);
+
+    &__title {
+      font-size: max(2rem, 4vw);
+    }
   }
 
   @include b.media-up(lg) {
