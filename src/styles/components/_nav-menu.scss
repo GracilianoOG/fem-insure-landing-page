@@ -54,7 +54,10 @@
         color 0.25s;
       width: min(87vw, 327px);
 
-      @include m.button-transition(color("very-dark-violet"), color("white"));
+      @include m.button-transition(
+        var(--border-secondary-color),
+        var(--primary-hover-color)
+      );
     }
   }
 
