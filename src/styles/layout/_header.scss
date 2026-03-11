@@ -1,5 +1,4 @@
 @use "../utils/breakpoints" as b;
-@use "../utils/variables" as *;
 
 .header {
   --header-bg-color: var(--background-primary-color);
