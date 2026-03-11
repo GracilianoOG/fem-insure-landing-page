@@ -88,7 +88,10 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    @include m.button-transition(color("white"), color("very-dark-violet"));
+    @include m.button-transition(
+      var(--about-us-btn-border-color),
+      var(--secondary-hover-color)
+    );
   }
 
   @include b.media-up(md) {
