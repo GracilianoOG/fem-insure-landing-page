@@ -2,12 +2,10 @@
 
 .intro-desktop {
   display: none;
+  height: 100%;
 
   @include b.media-up(lg) {
     display: initial;
-
-    &__img {
-      width: min(38vw, 33.75rem);
-    }
+    width: min(38vw, 33.75rem);
   }
 }
