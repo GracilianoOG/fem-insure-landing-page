@@ -12,6 +12,7 @@
   padding-bottom: 2.5rem;
   position: relative;
 
+  &__icon,
   &__logo {
     filter: var(--dark-theme-filter);
   }
@@ -23,7 +24,6 @@
   }
 
   &__link {
-    filter: var(--dark-theme-filter);
     transition: filter 0.25s;
 
     &:focus-visible,
