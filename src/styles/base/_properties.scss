@@ -24,34 +24,34 @@
   --page-spacing: max(1.5rem, 6vw);
   --header-height: 80px;
 
-  --body-bg-color: var(--white);
+  --body-bg-color: var(--background-primary-color);
 
-  --about-us-bg-color: var(--violet);
-  --about-us-color: var(--white);
+  --about-us-bg-color: var(--background-secondary-color);
+  --about-us-color: var(--secondary-color);
   --about-us-btn-color: inherit;
-  --about-us-btn-border-color: var(--white);
-  --about-us-top-line-color: var(--white);
+  --about-us-btn-border-color: var(--border-primary-color);
+  --about-us-top-line-color: var(--border-primary-color);
 
-  --features-bg-color: var(--white);
-  --features-color: var(--very-dark-violet);
-  --features-line-color: var(--very-dark-violet);
+  --features-bg-color: var(--background-primary-color);
+  --features-color: var(--primary-color);
+  --features-line-color: var(--border-secondary-color);
 
-  --nav-bg-color: var(--very-dark-violet);
-  --nav-link-color: var(--white);
-  --nav-link-hover-color: var(--very-dark-violet);
-  --nav-button-border-color: var(--white);
-  --nav-button-color: var(--white);
+  --nav-bg-color: var(--background-quaternary-color);
+  --nav-link-color: var(--secondary-color);
+  --nav-link-hover-color: var(--primary-color);
+  --nav-button-border-color: var(--border-primary-color);
+  --nav-button-color: var(--secondary-color);
 
-  --work-color: var(--white);
-  --work-cont-bg-color: var(--violet);
-  --work-btn-border-color: var(--white);
-  --work-btn-color: var(--white);
+  --work-color: var(--secondary-color);
+  --work-cont-bg-color: var(--background-secondary-color);
+  --work-btn-border-color: var(--border-primary-color);
+  --work-btn-color: var(--secondary-color);
 
-  --header-bg-color: var(--white);
+  --header-bg-color: var(--background-primary-color);
 
-  --footer-bg-color: var(--very-light-gray);
-  --footer-title-color: var(--dark-grayish-violet);
-  --footer-link-color: var(--violet);
+  --footer-bg-color: var(--background-tertiary-color);
+  --footer-title-color: var(--tertiary-color);
+  --footer-link-color: var(--quaternary-color);
   --footer-underline-color: currentColor;
 
   --socials-line-color: rgba(0, 0, 0, 0.12);
