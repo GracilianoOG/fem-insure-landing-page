@@ -3,6 +3,12 @@
 @use "../utils/mixins" as m;
 
 .nav-menu {
+  --nav-bg-color: var(--background-quaternary-color);
+  --nav-link-color: var(--secondary-color);
+  --nav-link-hover-color: var(--primary-color);
+  --nav-button-border-color: var(--border-primary-color);
+  --nav-button-color: var(--secondary-color);
+
   background-color: var(--nav-bg-color);
   background-image: url("../../assets/images/bg-pattern/mobile/bg-pattern-mobile-nav.svg");
   background-position: bottom;

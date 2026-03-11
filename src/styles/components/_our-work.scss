@@ -3,6 +3,11 @@
 @use "../utils/mixins" as m;
 
 .our-work {
+  --work-color: var(--secondary-color);
+  --work-cont-bg-color: var(--background-secondary-color);
+  --work-btn-border-color: var(--border-primary-color);
+  --work-btn-color: var(--secondary-color);
+
   color: var(--work-color);
   text-align: center;
 

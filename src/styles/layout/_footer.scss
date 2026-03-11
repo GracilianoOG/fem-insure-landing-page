@@ -2,6 +2,10 @@
 @use "../utils/breakpoints" as b;
 
 .footer {
+  --footer-bg-color: var(--background-tertiary-color);
+  --footer-title-color: var(--tertiary-color);
+  --footer-link-color: var(--quaternary-color);
+  --footer-underline-color: currentColor;
   --footer-bg-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-footer-mobile.svg");
 
   background-color: var(--footer-bg-color);

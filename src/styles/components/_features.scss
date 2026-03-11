@@ -2,6 +2,10 @@
 @use "../utils/breakpoints" as b;
 
 .features {
+  --features-bg-color: var(--background-primary-color);
+  --features-color: var(--primary-color);
+  --features-line-color: var(--border-secondary-color);
+
   background-color: var(--features-bg-color);
   text-align: center;
   color: var(--features-color);

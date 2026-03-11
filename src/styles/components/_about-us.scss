@@ -3,6 +3,12 @@
 @use "../utils/mixins" as m;
 
 .about-us {
+  --about-us-bg-color: var(--background-secondary-color);
+  --about-us-color: var(--secondary-color);
+  --about-us-btn-color: inherit;
+  --about-us-btn-border-color: var(--border-primary-color);
+  --about-us-top-line-color: var(--border-primary-color);
+
   display: grid;
 
   &__intro-mobile {
