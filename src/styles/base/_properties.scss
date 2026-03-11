@@ -21,6 +21,8 @@ $white: hsl(0, 0%, 100%);
   --secondary-color: #{$white};
   --tertiary-color: #{$dark-grayish-violet};
   --quaternary-color: #{$violet};
+  --primary-hover-color: #{$white};
+  --secondary-hover-color: #{$very-dark-violet};
 
   --main-font: "DM Serif Display", serif;
   --secondary-font: "Karla", sans-serif;
@@ -35,6 +37,7 @@ $white: hsl(0, 0%, 100%);
     --primary-color: #{$white};
     --tertiary-color: #{$light-gray};
     --quaternary-color: #{$white};
+    --primary-hover-color: #{$very-dark-violet};
     --dark-theme-filter: invert(1) brightness(2);
   }
 
