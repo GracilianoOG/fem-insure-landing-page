@@ -1,26 +1,26 @@
 @use "../utils/breakpoints" as b;
 
 :root {
-  --blue: hsl(216, 30%, 68%);
-  --dark-grayish-violet: hsl(273, 4%, 51%);
-  --dark-gray: hsl(200, 6%, 10%);
-  --light-gray: hsl(0, 0%, 78%);
-  --violet: hsl(256, 26%, 20%);
-  --very-dark-gray: hsl(180, 3%, 12%);
-  --very-dark-violet: hsl(270, 9%, 17%);
-  --very-light-gray: hsl(0, 0%, 98%);
-  --white: hsl(0, 0%, 100%);
+  $blue: hsl(216, 30%, 68%);
+  $dark-grayish-violet: hsl(273, 4%, 51%);
+  $dark-gray: hsl(200, 6%, 10%);
+  $light-gray: hsl(0, 0%, 78%);
+  $violet: hsl(256, 26%, 20%);
+  $very-dark-gray: hsl(180, 3%, 12%);
+  $very-dark-violet: hsl(270, 9%, 17%);
+  $very-light-gray: hsl(0, 0%, 98%);
+  $white: hsl(0, 0%, 100%);
 
-  --background-primary-color: var(--white);
-  --background-secondary-color: var(--violet);
-  --background-tertiary-color: var(--very-light-gray);
-  --background-quaternary-color: var(--very-dark-violet);
-  --border-primary-color: var(--white);
-  --border-secondary-color: var(--very-dark-violet);
-  --primary-color: var(--very-dark-violet);
-  --secondary-color: var(--white);
-  --tertiary-color: var(--dark-grayish-violet);
-  --quaternary-color: var(--violet);
+  --background-primary-color: #{$white};
+  --background-secondary-color: #{$violet};
+  --background-tertiary-color: #{$very-light-gray};
+  --background-quaternary-color: #{$very-dark-violet};
+  --border-primary-color: #{$white};
+  --border-secondary-color: #{$very-dark-violet};
+  --primary-color: #{$very-dark-violet};
+  --secondary-color: #{$white};
+  --tertiary-color: #{$dark-grayish-violet};
+  --quaternary-color: #{$violet};
 
   --main-font: "DM Serif Display", serif;
   --secondary-font: "Karla", sans-serif;
@@ -29,12 +29,12 @@
   --dark-theme-filter: none;
 
   @media (prefers-color-scheme: dark) {
-    --background-primary-color: var(--dark-gray);
-    --background-tertiary-color: var(--very-dark-gray);
-    --border-secondary-color: var(--white);
-    --primary-color: var(--white);
-    --tertiary-color: var(--light-gray);
-    --quaternary-color: var(--white);
+    --background-primary-color: #{$dark-gray};
+    --background-tertiary-color: #{$very-dark-gray};
+    --border-secondary-color: #{$white};
+    --primary-color: #{$white};
+    --tertiary-color: #{$light-gray};
+    --quaternary-color: #{$white};
     --dark-theme-filter: invert(1) brightness(2);
   }
 
