@@ -12,6 +12,10 @@
   padding-bottom: 2.5rem;
   position: relative;
 
+  &__logo {
+    filter: var(--dark-theme-filter);
+  }
+
   &__links {
     align-items: center;
     display: flex;
@@ -19,6 +23,7 @@
   }
 
   &__link {
+    filter: var(--dark-theme-filter);
     transition: filter 0.25s;
 
     &:focus-visible,
