@@ -58,6 +58,15 @@
 
   --socials-line-color: rgba(0, 0, 0, 0.12);
 
+  @media (prefers-color-scheme: dark) {
+    --background-primary-color: var(--dark-gray);
+    --background-tertiary-color: var(--very-dark-gray);
+    --border-secondary-color: var(--white);
+    --primary-color: var(--white);
+    --tertiary-color: var(--very-light-gray);
+    --quaternary-color: var(--white);
+  }
+
   @include b.media-up(md) {
     --page-spacing: max(4.5rem, 9vw);
   }
