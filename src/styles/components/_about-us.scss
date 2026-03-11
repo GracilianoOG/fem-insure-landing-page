@@ -11,6 +11,11 @@
     width: 100%;
   }
 
+  &__intro-desktop {
+    display: none;
+    height: 100%;
+  }
+
   &__content {
     --pattern-top: 21.625rem;
     --pattern-before-img: url("../../assets/images/bg-pattern/mobile/bg-pattern-intro-left-mobile.svg");
@@ -93,6 +98,11 @@
 
     &__intro-mobile {
       display: none;
+    }
+
+    &__intro-desktop {
+      display: initial;
+      width: min(38vw, 33.75rem);
     }
 
     &__content {
