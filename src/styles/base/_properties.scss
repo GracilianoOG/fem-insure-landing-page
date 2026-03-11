@@ -8,6 +8,17 @@
   --very-light-gray: hsl(0, 0%, 98%);
   --white: hsl(0, 0%, 100%);
 
+  --background-primary-color: var(--white);
+  --background-secondary-color: var(--violet);
+  --background-tertiary-color: var(--very-light-gray);
+  --background-quaternary-color: var(--very-dark-violet);
+  --border-primary-color: var(--white);
+  --border-secondary-color: var(--very-dark-violet);
+  --primary-color: var(--very-dark-violet);
+  --secondary-color: var(--white);
+  --tertiary-color: var(--dark-grayish-violet);
+  --quaternary-color: var(--violet);
+
   --main-font: "DM Serif Display", serif;
   --secondary-font: "Karla", sans-serif;
   --page-spacing: max(1.5rem, 6vw);
