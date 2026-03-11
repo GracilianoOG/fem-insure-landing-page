@@ -58,9 +58,9 @@
 
   @include b.media-up(lg) {
     --nav-bg-color: transparent;
-    --nav-link-color: var(--dark-grayish-violet);
-    --nav-button-border-color: var(--very-dark-violet);
-    --nav-button-color: var(--very-dark-violet);
+    --nav-link-color: var(--tertiary-color);
+    --nav-button-border-color: var(--border-secondary-color);
+    --nav-button-color: var(--primary-color);
 
     background-image: none;
     display: initial;
