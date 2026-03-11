@@ -39,7 +39,10 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    @include m.button-transition(color("white"), color("very-dark-violet"));
+    @include m.button-transition(
+      var(--work-btn-border-color),
+      var(--secondary-hover-color)
+    );
   }
 
   @include b.media-up(lg) {
