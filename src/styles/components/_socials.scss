@@ -2,7 +2,7 @@
 @use "../utils/breakpoints" as b;
 
 .socials {
-  --socials-line-color: rgba(0, 0, 0, 0.12);
+  --socials-line-color: hsla(273, 4%, 51%, 0.25);
 
   align-items: center;
   border-bottom: 1px solid var(--socials-line-color);
