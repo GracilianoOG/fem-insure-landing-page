@@ -13,6 +13,7 @@
   &__intro-mobile,
   &__intro-desktop {
     height: 100%;
+    filter: var(--reduce-img-light);
     object-fit: cover;
     width: 100%;
   }
