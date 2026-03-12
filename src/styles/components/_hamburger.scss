@@ -2,17 +2,10 @@
 
 .hamburger {
   --button-size: 32px;
-  --button-image: url("../../assets/images/icons/icon-hamburger.svg");
-  border: none;
+  border: 2px solid var(--border-secondary-color);
   background-color: transparent;
-  background-image: var(--button-image);
-  background-repeat: no-repeat;
   height: var(--button-size);
   width: var(--button-size);
-
-  &--close {
-    --button-image: url("../../assets/images/icons/icon-close.svg");
-  }
 
   @include b.media-up(lg) {
     display: none;
