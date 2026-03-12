@@ -29,6 +29,7 @@ $white: hsl(0, 0%, 100%);
   --page-spacing: max(1.5rem, 6vw);
   --header-height: 80px;
   --dark-theme-filter: none;
+  --reduce-img-light: none;
 
   @media (prefers-color-scheme: dark) {
     --background-primary-color: #{$dark-gray};
@@ -39,6 +40,7 @@ $white: hsl(0, 0%, 100%);
     --quaternary-color: #{$white};
     --primary-hover-color: #{$very-dark-violet};
     --dark-theme-filter: invert(1) brightness(2);
+    --reduce-img-light: brightness(0.95);
   }
 
   @include b.media-up(md) {
