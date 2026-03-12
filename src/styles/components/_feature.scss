@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     content: "";
     display: block;
+    filter: var(--reduce-img-light);
     height: var(--feature-icon-size);
     margin: 0 auto 2.15rem auto;
     width: var(--feature-icon-size);
