@@ -30,6 +30,7 @@ $white: hsl(0, 0%, 100%);
   --header-height: 80px;
   --dark-theme-filter: none;
   --reduce-img-light: none;
+  --scrollbar-colors: #{$violet} #{$very-light-gray};
 
   @media (prefers-color-scheme: dark) {
     --background-primary-color: #{$dark-gray};
@@ -42,6 +43,7 @@ $white: hsl(0, 0%, 100%);
     --primary-hover-color: #{$very-dark-violet};
     --dark-theme-filter: invert(1) brightness(2);
     --reduce-img-light: brightness(0.95);
+    --scrollbar-colors: #{$blue} #{$very-dark-gray};
   }
 
   @include b.media-up(md) {
