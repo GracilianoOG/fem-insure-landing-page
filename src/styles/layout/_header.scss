@@ -12,7 +12,11 @@
   z-index: 5;
 
   &::before {
-    background-color: var(--background-primary-color);
+    background-color: color-mix(
+      in hsl,
+      var(--background-primary-color) 90%,
+      transparent
+    );
     content: "";
     inset: 0;
     opacity: 0.9;
