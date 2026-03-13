@@ -62,7 +62,6 @@
 
   &--show {
     display: initial;
-    height: calc(100vh - var(--header-height));
   }
 
   @include b.media-up(lg) {
