@@ -2,6 +2,7 @@
 
 .header {
   align-items: center;
+  backdrop-filter: blur(3px);
   display: flex;
   height: var(--header-height);
   justify-content: space-between;
@@ -12,7 +13,6 @@
 
   &::before {
     background-color: var(--background-primary-color);
-    backdrop-filter: blur(3px);
     content: "";
     inset: 0;
     opacity: 0.9;
