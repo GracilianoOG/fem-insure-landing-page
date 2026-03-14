@@ -22,8 +22,10 @@ const setTheme = (theme) => {
   localStorage.setItem("theme", theme);
 };
 
-themeToggle.addEventListener("click", () => {
+const changeTheme = () => {
   const currentTheme = getTheme();
   const theme = currentTheme === "dark" ? "light" : "dark";
   setTheme(theme);
-});
+};
+
+themeToggle.addEventListener("click", changeTheme);
