@@ -28,5 +28,10 @@ const changeTheme = () => {
   setTheme(theme);
 };
 
-setTheme(getTheme());
-themeToggle.addEventListener("click", changeTheme);
+const loadAvailableTheme = () => {
+  const theme = getTheme();
+  setTheme(theme);
+  themeToggle.addEventListener("click", changeTheme);
+};
+
+loadAvailableTheme();
