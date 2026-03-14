@@ -6,8 +6,6 @@ hamButton.addEventListener("click", () => {
   navMenu.classList.toggle("nav-menu--show");
 });
 
-const themeToggle = document.querySelector(".theme-toggle");
-
 const getTheme = () => {
   const savedTheme = localStorage.getItem("theme");
   const preferredTheme = matchMedia("(prefers-color-scheme: dark)").matches
@@ -28,10 +26,15 @@ const changeTheme = () => {
   setTheme(theme);
 };
 
+const initThemeToggle = () => {
+  const themeToggle = document.querySelector(".theme-toggle");
+  themeToggle.addEventListener("click", changeTheme);
+};
+
 const loadAvailableTheme = () => {
   const theme = getTheme();
   setTheme(theme);
-  themeToggle.addEventListener("click", changeTheme);
+  initThemeToggle();
 };
 
 loadAvailableTheme();
