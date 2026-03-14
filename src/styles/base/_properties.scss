@@ -42,7 +42,7 @@ $white: hsl(0, 0%, 100%);
     --quaternary-color: #{$very-light-gray};
     --primary-hover-color: #{$very-dark-violet};
     --dark-theme-filter: invert(1) brightness(2);
-    --reduce-img-light: brightness(0.95);
+    --reduce-img-light: brightness(0.9) contrast(1.1);
     --scrollbar-colors: #{$blue} #{$very-dark-gray};
   }
 
