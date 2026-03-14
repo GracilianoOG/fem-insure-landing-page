@@ -28,4 +28,5 @@ const changeTheme = () => {
   setTheme(theme);
 };
 
+setTheme(getTheme());
 themeToggle.addEventListener("click", changeTheme);
