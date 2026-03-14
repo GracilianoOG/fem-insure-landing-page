@@ -32,7 +32,7 @@ $white: hsl(0, 0%, 100%);
   --reduce-img-light: none;
   --scrollbar-colors: #{$violet} #{$very-light-gray};
 
-  @media (prefers-color-scheme: dark) {
+  &[data-theme="dark"] {
     --background-primary-color: #{$dark-gray};
     --background-tertiary-color: #{$very-dark-gray};
     --border-secondary-color: #{$white};
