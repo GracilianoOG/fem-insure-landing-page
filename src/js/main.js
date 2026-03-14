@@ -18,7 +18,7 @@ const getTheme = () => {
 };
 
 themeToggle.addEventListener("click", () => {
-  const currentTheme = savedTheme || preferredTheme;
+  const currentTheme = getTheme();
   const theme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", theme);
 });
