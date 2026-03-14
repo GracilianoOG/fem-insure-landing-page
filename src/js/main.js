@@ -17,9 +17,13 @@ const getTheme = () => {
   return savedTheme ?? preferredTheme;
 };
 
+const setTheme = (theme) => {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem("theme", theme);
+};
+
 themeToggle.addEventListener("click", () => {
   const currentTheme = getTheme();
   const theme = currentTheme === "dark" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", theme);
-  localStorage.setItem("theme", theme);
+  setTheme(theme);
 });
