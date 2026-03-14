@@ -8,7 +8,7 @@ hamButton.addEventListener("click", () => {
 
 const themeToggle = document.querySelector(".theme-toggle");
 
-const loadTheme = () => {
+const getTheme = () => {
   const savedTheme = localStorage.getItem("theme");
   const preferredTheme = matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
