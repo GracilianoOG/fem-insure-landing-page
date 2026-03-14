@@ -8,11 +8,16 @@ hamButton.addEventListener("click", () => {
 
 const themeToggle = document.querySelector(".theme-toggle");
 
-themeToggle.addEventListener("click", () => {
+const loadTheme = () => {
   const savedTheme = localStorage.getItem("theme");
   const preferredTheme = matchMedia("(prefers-color-scheme: dark)").matches
     ? "dark"
     : "light";
+
+  return savedTheme ?? preferredTheme;
+};
+
+themeToggle.addEventListener("click", () => {
   const currentTheme = savedTheme || preferredTheme;
   const theme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", theme);
