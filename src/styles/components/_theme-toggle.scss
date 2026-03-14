@@ -1,0 +1,14 @@
+.theme-toggle {
+  --toggler-size: 30px;
+  border: none;
+  background-color: transparent;
+  color: var(--border-secondary-color);
+  display: block;
+  height: var(--toggler-size);
+  width: var(--toggler-size);
+
+  &__dark-side {
+    height: inherit;
+    width: inherit;
+  }
+}
