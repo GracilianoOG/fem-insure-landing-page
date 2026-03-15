@@ -20,6 +20,7 @@
     content: "";
     inset: 0;
     position: absolute;
+    transition: var(--body-bg-color-transition);
     z-index: -1;
   }
 
