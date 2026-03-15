@@ -1,8 +1,10 @@
+@use "../utils/breakpoints" as *;
+
 .theme-toggle {
   --toggler-size: 30px;
   border: none;
   background-color: transparent;
-  color: var(--border-secondary-color);
+  color: var(--border-primary-color);
   display: block;
   height: var(--toggler-size);
   transition: transform 0.4s;
@@ -15,5 +17,9 @@
   &__dark-side {
     height: inherit;
     width: inherit;
+  }
+
+  @include media-up(lg) {
+    color: var(--border-secondary-color);
   }
 }
