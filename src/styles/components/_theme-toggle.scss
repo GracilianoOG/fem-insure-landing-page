@@ -5,7 +5,12 @@
   color: var(--border-secondary-color);
   display: block;
   height: var(--toggler-size);
+  transition: transform 0.4s;
   width: var(--toggler-size);
+
+  &--active {
+    transform: rotate(-180deg);
+  }
 
   &__dark-side {
     height: inherit;
