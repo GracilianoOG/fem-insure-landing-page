@@ -4,6 +4,7 @@ html {
 
 body {
   --body-bg-color: var(--background-primary-color);
+  --body-bg-color-transition: background-color 0.2s;
 
   align-items: center;
   background-color: var(--body-bg-color);
@@ -11,6 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  transition: var(--body-bg-color-transition);
   width: 100%;
 }
 
