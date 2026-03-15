@@ -25,6 +25,15 @@
     />
 
     <title>Insure landing page</title>
+
+    <script>
+      const preferredTheme = matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+      const theme = localStorage.getItem("theme") ?? preferredTheme;
+      localStorage.setItem("theme", theme);
+      document.documentElement.setAttribute("data-theme", theme);
+    </script>
   </head>
   <body>
     <header class="header wrapper">
