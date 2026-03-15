@@ -1,7 +1,11 @@
 @use "../utils/breakpoints" as b;
 
 .socials {
-  --socials-line-color: hsla(273, 4%, 51%, 0.25);
+  --socials-line-color: color-mix(
+    in hsl,
+    var(--tertiary-color) 25%,
+    transparent
+  );
 
   align-items: center;
   border-bottom: 1px solid var(--socials-line-color);
