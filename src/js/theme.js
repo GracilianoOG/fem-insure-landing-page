@@ -16,6 +16,7 @@ const updateToggler = (theme) => {
   const isDarkTheme = theme === "dark";
   const themeToggle = document.querySelector(".theme-toggle");
   themeToggle.classList.toggle("theme-toggle--active", isDarkTheme);
+  themeToggle.setAttribute("aria-pressed", isDarkTheme);
 };
 
 const changeTheme = () => {
