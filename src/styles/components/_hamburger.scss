@@ -19,18 +19,16 @@
     width: 16px;
   }
 
-  &--close &__line {
-    &:first-child {
-      transform: rotate(45deg) translate(4px, 4px);
-    }
+  &--close &__line--1 {
+    transform: rotate(45deg) translate(4px, 4px);
+  }
 
-    &:nth-child(2) {
-      transform: scaleY(0);
-    }
+  &--close &__line--2 {
+    transform: scaleY(0);
+  }
 
-    &:last-child {
-      transform: rotate(-45deg) translate(3px, -3px);
-    }
+  &--close &__line--3 {
+    transform: rotate(-45deg) translate(3px, -3px);
   }
 
   @include b.media-up(lg) {
