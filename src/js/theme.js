@@ -13,8 +13,9 @@ const setTheme = (theme) => {
 };
 
 const updateToggler = (theme) => {
+  const isDarkTheme = theme === "dark";
   const themeToggle = document.querySelector(".theme-toggle");
-  themeToggle.classList.toggle("theme-toggle--active", theme === "dark");
+  themeToggle.classList.toggle("theme-toggle--active", isDarkTheme);
 };
 
 const changeTheme = () => {
