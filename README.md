@@ -79,6 +79,13 @@ npm run dev
 - [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme)
 - [Dark Mode in CSS Guide](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web)
 - [10+ Hamburger Menu Examples [CSS Only]](https://alvarotrigo.com/blog/hamburger-menu-css/)
+- [How to Create CSS Animations on Scroll [With Examples]](https://alvarotrigo.com/blog/css-animations-scroll/)
+- [backdrop-filter](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter)
+- [color-mix()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix)
+- [Theme toggles](https://toggles.dev/)
+- [Dark Mode in CSS](https://design.dev/guides/dark-mode-css/)
+- [Placeholder Selectors](https://sass-lang.com/documentation/style-rules/placeholder-selectors/)
+- [Accessibility testing using Linux](https://www.makethingsaccessible.com/guides/accessibility-testing-using-linux/)
 
 ## 🧑🏻‍💻 Author
 
