@@ -70,7 +70,7 @@ npm run dev
 - Responsive design
 - Vite build tool
 
-## 🔗 Links
+## 🔗 Resources
 
 - [Frontend Mentor](https://www.frontendmentor.io/)
 - [CSS Custom Properties & SASS variables](https://frontendly.io/blog/css-custom-properties)
